@@ -1,0 +1,1 @@
+pickle.dump(model.open(.parkinson.pk1.,.wb.))
