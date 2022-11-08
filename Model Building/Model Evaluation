@@ -1,0 +1,11 @@
+# make predictions on the testing data
+predictions model.predict(X_test)
+
+# compute the confusion matrix and and use it to derive the raw
+# accuracy
+
+cm =confusion_matrix(y_test, predictions). flatten()
+print (cm)
+(tn, fp, fn, tp) = cm
+accuracy (tp + tn) / float (cm.sum())
+print (accuracy)
