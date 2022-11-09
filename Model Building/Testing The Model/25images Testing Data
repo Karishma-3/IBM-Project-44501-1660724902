@@ -1,0 +1,11 @@
+
+#randomly select a few images and then initialize the output images 
+# for the montage
+
+randomly select a few images and then initialize the output images 
+testingPaths = list(paths.list_images (testingPath))
+idxs= np.arange(0, len (testingPaths))
+idxs= np.random.choice(idxs, size=(25.), replace=False)
+images = []
+
+
