@@ -1,3 +1,6 @@
-print("[INFO] training model")
-model = Random ForestClassifier (n_estimators=100)
-model.fit(X_train, y_train)
+model = svm.SVC(kernel='linear')
+
+# training the SVM model with training data
+model.fit(X_train, Y_train)
+
+SVC(kernel='linear')
