@@ -1,6 +1,12 @@
-# encode the labels as integers
+# distribution of target Variable
+parkinsons_data['status'].value_counts()
 
-le = LabelEncoder()
-y_train = le.fit_transform(y_train)
-y_test = le.transform (y_test) 
-print (X_train. shape, y_train.shape)
+
+1    147
+0     48
+Name: status, dtype: int64
+
+
+1 --> Parkinson's Positive
+
+0 --> Healthy
